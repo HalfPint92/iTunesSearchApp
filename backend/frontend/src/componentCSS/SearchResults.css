@@ -1,0 +1,50 @@
+/* Styling for Search Results */
+.search-results {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 20px;
+  margin-top: 20px;
+  background-color: #e5f0f3;
+  margin-bottom: 20px;
+  padding: 20px;
+
+}
+
+.search-result {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  height: 100%;
+  margin: 20px;
+}
+
+.search-result img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px #0000001a;
+}
+
+.search-result h3 {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.search-result p {
+  margin-top: 5px;
+  font-size: 14px;
+  color: #3f3f3f;
+}
+
+h1 {
+  font-size: 32px;
+  margin: 0;
+  text-align: center;
+}
+
+.search-p {
+  text-align: center;
+}

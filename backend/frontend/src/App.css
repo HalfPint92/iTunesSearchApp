@@ -1,0 +1,42 @@
+/* Styling for App */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f5f5f5;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header Styles */
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 32px;
+  margin: 0;
+}
+
+.search-container {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  grid-gap: 20px;
+}
+
+.search {
+  grid-column: 1;
+}
+
+.favorite-list {
+  grid-column: 2;
+}
+
+.favorite-list-container {
+  width: 200px;
+}
