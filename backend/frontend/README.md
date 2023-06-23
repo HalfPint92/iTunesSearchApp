@@ -65,4 +65,4 @@ The app incorporates security measures to ensure the protection of user data and
 
 The app has been deployed to GitHub and can be accessed using the following link:
 
-[Link to Deployed App](https://github.com/HalfPint92/iTunesSearchApp)
+[Link to Deployed App](https://halfpint92.github.io/iTunesSearchApp/)
